@@ -12,7 +12,7 @@
 | 주차 | 일시 | 장소 | 주제 | 발표자 | 정리자 | 완료 |
 |---|---|:---:|---|---|---|:---:|
 | week 00 | 2024-09-26 22:00 | Online | Orientation | [@ksko1](https://github.com/ksko1) | [@ksko1](https://github.com/ksko1) | ✔ |
-| week 01 | 2024-10-08 20:00 | Online | [SpringBatch 빠르게 시작하기](https://devocean.sk.com/search/techBoardDetail.do?ID=166164) |  |  |  |
+| [week 01](week01) | 2024-10-08 20:00 | Online | [SpringBatch 빠르게 시작하기](https://devocean.sk.com/search/techBoardDetail.do?ID=166164) |  |  |  |
 | week 02 | 2024-10-15 20:00|  | [SpringBatch 코드 설명 및 아키텍처 알아보기](https://devocean.sk.com/search/techBoardDetail.do?ID=166690) |  |  |  |
 | week 03 | 2024-10-22 20:00 |  | [SpringBatch ChunkModel과 TaskletModel](https://devocean.sk.com/search/techBoardDetail.do?ID=166694) |  |  |  |
 | week 04 | 2024-10-29 20:00 |  | FlatFile Reader / Writer |  |  |  |
@@ -26,6 +26,6 @@
 <br/>
 
 ## 👩‍💻 스터디 참석자
-| <img src="https://avatars.githubusercontent.com/u/18614482?v=4" width="100" height="100"/> | <img src="https://avatars.githubusercontent.com/u/66154381?v=4" width="100" height="100"/> |
+| <img src="https://avatars.githubusercontent.com/u/18614482?v=4" width="120" height="120"/> | <img src="https://avatars.githubusercontent.com/u/66154381?v=4" width="120" height="120"/> |
 |:---:|:---:|
 | **Leader** <br/> [@ksko1](https://github.com/ksko1) | **Maintainer** <br/> [@schooldevops](https://github.com/schooldevops)
