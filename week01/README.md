@@ -1372,9 +1372,66 @@ CREATE 권한만 부여한 경우 INDEX, 제약 조건 등의 의하여 필수 �
 실 사용시에는 자동 생성 기능 사용하지 않음 <br>
 각 테이블 생성 쿼리는  spring batch 공식 깃허브에 작성되어 있음 <br>
 example - https://github.com/spring-projects/spring-batch/blob/main/spring-batch-core/src/main/resources/org/springframework/batch/core/schema-mysql.sql
+<br><br>
+
+**☝️내용 추가☝️**<br>
+
+## 목차
+- [왜 Spring Batch를 배워야 할까?](#왜-spring-batch를-배워야-할까)
+- [스프링 배치 vs 스케줄러](#스프링-배치-vs-스케줄러)
+- [테이블이 자동으로 생성되지 않는 문제](#테이블이-자동으로-생성되지-않는-문제)
+- [스키마 초기화 설정](#스키마-초기화-설정)
+- [Spring Batch 테이블 구조](#spring-batch-테이블-구조)
+- [Spring Batch 테이블 역할](#spring-batch-테이블-역할)
+
+## 왜 Spring Batch를 배워야 할까?
+
+스프링 배치는 대용량 배치 처리에 특화된 ‘프레임워크’입니다. 프레임워크의 가장 큰 특징은 누구나 동일한 구조로 코드를 작성할 수 있다는 점이며, 이는 유지보수와 코드 일관성 측면에서 큰 장점임
+
+## 스프링 배치 vs 스케줄러
+
+스케줄러는 시간 변경 시 재배포가 필요하거나, 배포 중 배치 작업이 중단되면 복구에 어려움이 있을 수 있습니다. 반면, 스프링 배치는 이러한 문제를 미리 고려하여 다양한 기능을 제공합니다. 트랜잭션 단위 설정, 작업 처리 시점 등에 대해 고려할 점이 많을 때, Spring Batch는 효과적인 선택이 될 수 있음
+
+- **자동 로깅 기능**: 개발자가 별도로 로깅 로직을 구현하지 않아도, Spring Batch는 자동으로 처리 과정을 기록.
+- **Tasklet과 Chunk 처리**: 작업의 규모에 따라 단순한 작업은 `tasklet`으로, 대규모 작업은 `chunk` 단위로 나누어 효율적으로 배치 작업을 관리.
+- **다양한 서비스 연동**: 쿠버네티스, AWS Batch, 젠킨스 등 다양한 환경과 연동이 가능.
+
+## 테이블이 자동으로 생성되지 않는 문제
+
+Spring Boot 3.0 이상에서는 `@EnableBatchProcessing` 애노테이션의 역할이 변경됨,
+
+- **Spring Boot 3.0 이전**: 자동 설정을 활성화하는 데 사용.
+- **Spring Boot 3.0 이상**: 자동 설정 사용을 위해 애노테이션이 제거.
+
+또한, H2 DB 사용 시 `spring-boot-starter-web` 의존성이 추가되어야 웹 콘솔에 접근할 수 있음
+
+## 스키마 초기화 설정
+
+`application.yml`에서 스키마 초기화 설정을 아래와 같이 권장함.
+
+```yaml
+batch:
+  jdbc:
+    initialize-schema: always # 최초 테이블 생성 후 주석 처리 권장
+```
+
+## Spring Batch 테이블 구조
+![spring_batch_img04](img/spring_batch_img_04.png)
+
+상세 테이블 설명 참고 
+메인 교안 : <https://devocean.sk.com/blog/techBoardDetail.do?ID=166164> <br>
+스터디 후 추가설명 들어간 잘 정리된 글 : <https://yeseul-dev.tistory.com/38>
+
+## Spring Batch 테이블 구조
+👏JOB → JOB_EXECUTION → STEP_EXECUTION👏 테이블 순서로 데이터가 기록
+
+![spring_batch_img03](img/spring_batch_img_03.png)
+출처 : <https://yeseul-dev.tistory.com/39?category=1246494>
 
 ### 1주차 WrapUp
 
 ---
 스프링 배치를 위한 가장 기본적인 설정 완료 <br>
-초기 실행은 DB만 정상적으로 연결되면 정상 동작
+초기 실행은 DB만 정상적으로 연결되면 정상 동작 <br><br>
+스프링 배치는 왜 사용할까? <br>
+테이블 구조 및 흐름
