@@ -1376,51 +1376,57 @@ example - https://github.com/spring-projects/spring-batch/blob/main/spring-batch
 
 **☝️내용 추가☝️**<br>
 
-**왜 Spring Batch를 배워야 할까?** <br>
-스프링 배치는 배치 처리에 특화된 ‘프레임워크’입니다. 프레임워크의 가장 큰 특징은 누구나 동일한 구조로 코드를 작성할 수 있다는 점입니다. 물론, 처음에는 Spring Batch가 다소 무겁게 느껴질 수 있습니다. 기본적으로 DB 설정이 필요하고, 배치 실행 시 발생하는 다양한 예외 상황에 대한 처리도 고려해야 하기 때문입니다.
+## 목차
+- [왜 Spring Batch를 배워야 할까?](#왜-spring-batch를-배워야-할까)
+- [스프링 배치 vs 스케줄러](#스프링-배치-vs-스케줄러)
+- [테이블이 자동으로 생성되지 않는 문제](#테이블이-자동으로-생성되지-않는-문제)
+- [스키마 초기화 설정](#스키마-초기화-설정)
+- [Spring Batch 테이블 구조](#spring-batch-테이블-구조)
+- [Spring Batch 테이블 역할](#spring-batch-테이블-역할)
 
-**스프링 배치 vs 스케줄러** <br>
-배치 작업은 스케줄러로도 구현할 수 있습니다. 하지만 스케줄러는 시간 변경 시 재배포가 필요하거나, 배포 중에 배치 작업이 중단되면 다시 복구하는 데 문제가 발생할 수 있습니다. 이런 경우 스케줄러는 유지보수에 매우 불편한 도구가 될 수 있습니다. 반면, 스프링 배치는 이런 문제를 미리 고려하고 다양한 기능을 제공합니다.
+## 왜 Spring Batch를 배워야 할까?
 
-그렇다고 해서 완전히 날것의 배치 프로그램을 만드는 것도 매우 불편합니다. 트랜잭션 단위를 어떻게 설정할지, 언제 어떻게 처리할지 등 고려해야 할 사항이 너무나 많기 때문입니다. 이런 상황에서 Spring Batch는 매우 효과적인 해결책이 됩니다.
+스프링 배치는 대용량 배치 처리에 특화된 ‘프레임워크’입니다. 프레임워크의 가장 큰 특징은 누구나 동일한 구조로 코드를 작성할 수 있다는 점이며, 이는 유지보수와 코드 일관성 측면에서 큰 장점임
 
-예를 들어, Spring Batch의 장점 중 하나는 자동 로깅 기능입니다. 개발자가 별도로 로깅 로직을 구현하지 않아도, Spring Batch가 자동으로 처리 과정을 기록해줍니다. 또한 작업의 규모에 따라 단순한 작업은 tasklet으로, 대규모 작업은 chunk 단위로 나누어 처리할 수 있어 효율적으로 배치 작업을 관리할 수 있습니다.
+## 스프링 배치 vs 스케줄러
 
-Spring Batch는 다양한 서비스 및 환경과의 연동이 가능합니다. 예를 들어, 쿠버네티스에서 배치 작업으로 실행할 수 있고, AWS Batch와도 연동이 가능합니다. 젠킨스와 같은 도구와의 연계도 쉽게 할 수 있습니다.
- 
-**테이블이 자동으로 생성되지 않는 문제** <br>
-Spring Boot 3.0 이상에서의 변경사항
-@EnableBatchProcessing 애노테이션의 역할이 변화되었습니다.
+스케줄러는 시간 변경 시 재배포가 필요하거나, 배포 중 배치 작업이 중단되면 복구에 어려움이 있을 수 있습니다. 반면, 스프링 배치는 이러한 문제를 미리 고려하여 다양한 기능을 제공합니다. 트랜잭션 단위 설정, 작업 처리 시점 등에 대해 고려할 점이 많을 때, Spring Batch는 효과적인 선택이 될 수 있음
 
-Spring Boot 3.0 이전: auto configuration을 활성화하는 데 사용
-Spring Boot 3.0 이상: auto configuration 사용을 위해 제거
+- **자동 로깅 기능**: 개발자가 별도로 로깅 로직을 구현하지 않아도, Spring Batch는 자동으로 처리 과정을 기록.
+- **Tasklet과 Chunk 처리**: 작업의 규모에 따라 단순한 작업은 `tasklet`으로, 대규모 작업은 `chunk` 단위로 나누어 효율적으로 배치 작업을 관리.
+- **다양한 서비스 연동**: 쿠버네티스, AWS Batch, 젠킨스 등 다양한 환경과 연동이 가능.
 
-H2 DB 사용으로 인한 웹 콘솔 확인 필요
-spring-boot-starter-web 의존성의 추가가 필요합니다.
-이 의존성이 없으면 HTTP 요청을 처리할 수 없어 H2 콘솔에 접근이 불가능합니다.
+## 테이블이 자동으로 생성되지 않는 문제
 
-**스키마 초기화 설정** <br>
-application.yml에 다음 설정 추가가 필요합니다.
-batch: jdbc: initialize-schema: always
-(최초 생성 후 always 옵션은 주석처리 하여 사용하는 것을 권장함)
+Spring Boot 3.0 이상에서는 `@EnableBatchProcessing` 애노테이션의 역할이 변경됨,
 
-스터디에서 해당 설정을 해야 테이블이 생성된다고 들었었는데, 실험 결과 해당 코드가 없어도 테이블이 생성 되었습니다. 제 짐작으로는 H2 DB를 사용하면 자동 생성이 되고, 외부 DB를 사용 하면 필요할 것으로 보입니다.
+- **Spring Boot 3.0 이전**: 자동 설정을 활성화하는 데 사용.
+- **Spring Boot 3.0 이상**: 자동 설정 사용을 위해 애노테이션이 제거.
 
-**Spring Batch 테이블 구조** <br>
-etc-image-0
+또한, H2 DB 사용 시 `spring-boot-starter-web` 의존성이 추가되어야 웹 콘솔에 접근할 수 있음
+
+## 스키마 초기화 설정
+
+`application.yml`에서 스키마 초기화 설정을 아래와 같이 권장함.
+
+```yaml
+batch:
+  jdbc:
+    initialize-schema: always # 최초 테이블 생성 후 주석 처리 권장
+```
+
+## Spring Batch 테이블 구조
+![spring_batch_img04](img/spring_batch_img_04.png)
 
 상세 테이블 설명 참고 
 메인 교안 : <https://devocean.sk.com/blog/techBoardDetail.do?ID=166164> <br>
 스터디 후 추가설명 들어간 잘 정리된 글 : <https://yeseul-dev.tistory.com/38>
 
-**Spring Batch 테이블 역할** <br>
-이 테이블을 배치 작업(Job)을 돌렸을 때 데이터가 생성되는 순서대로 테이블을 나타내 보았습니다.
+## Spring Batch 테이블 구조
+👏JOB → JOB_EXECUTION → STEP_EXECUTION👏 테이블 순서로 데이터가 기록
 
-스크린샷 2024-10-09 오전 1.44.55.png
-
+![spring_batch_img03](img/spring_batch_img_03.png)
 출처 : <https://yeseul-dev.tistory.com/39?category=1246494>
-
-여기서 중요한 점은 👏JOB → JOB_EXECUTION → STEP_EXECUTION👏 테이블 순서로 데이터가 기록 된다는 것입니다.
 
 ### 1주차 WrapUp
 
