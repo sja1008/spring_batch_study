@@ -1,4 +1,4 @@
-# 2주차 SPRING BATCH STUDY (/written by )
+# 2주차 SPRING BATCH STUDY (/written by @claeo001)
 
 KIDO 님의 SpringBatch 연재 시리즈를 보면서 스터디하는 과정을 진행한다.
 
@@ -29,7 +29,6 @@ KIDO 님의 SpringBatch 연재 시리즈를 보면서 스터디하는 과정을 
 ### Tasklet 구현체 생성하기
 GreetingTasklet.java 파일 생성하고 다음과 같이 작성한다.
 
-GreetingTasklet.java
 ```java
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.StepContribution;
@@ -157,6 +156,7 @@ public Step step(JobRepository jobRepository, PlatformTransactionManager transac
 - 그리고 이 스텝은 jobRepository에 등록된다.
 - tasklet을 스텝에 추가하고, greetingTasklet() 을 통해서 스탭내 태스크릿을 주입했다.
 - build를 통해서 스텝을 생성하고 빈으로 등록하도록 return한다.
+<br><br>
 
 ```java
 @Bean
@@ -175,6 +175,7 @@ public Job myJob(Step step, JobRepository jobRepository) {
 - RunIdIncrementer는 잡의 아이디를 실행할때 지속적으로 증가시키면서 유니크한 잡을 실행하게 된다.
 - start(step) 을 통해서 잡의 시작 포인트를 잡는다. 처음시작하는 스텝은 우리가 파라미터로 받은 step을 등록했다.
 - build를 통해서 잡생성하고 빈으로 등록하도록 return한다.
+<br><br>
 
 ### 실행하기
 -  이제 실행을 해봤다<br>
