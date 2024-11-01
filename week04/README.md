@@ -1,4 +1,4 @@
-# 3주차 SPRING BATCH STUDY (written by @wonjs)
+# 4주차 SPRING BATCH STUDY (written by @wonjs)
 
 KIDO 님의 SpringBatch 연재 시리즈를 보면서 스터디하는 과정을 진행한다.
 
