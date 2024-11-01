@@ -16,7 +16,7 @@
 | [week 01](week01) | 2024-10-08 20:00 | Online | [SpringBatch 빠르게 시작하기](https://devocean.sk.com/search/techBoardDetail.do?ID=166164) | [@won-js](https://github.com/won-js) | [@ksko1](https://github.com/ksko1) | ✔ |
 | [week 02](week02) | 2024-10-15 20:00| Online | [SpringBatch 코드 설명 및 아키텍처 알아보기](https://devocean.sk.com/search/techBoardDetail.do?ID=166690) | [@claeo001](https://github.com/claeo001) | [@ksko1](https://github.com/ksko1) | ✔ |
 | [week 03](week03) | 2024-10-22 20:00 | Online | [SpringBatch ChunkModel과 TaskletModel](https://devocean.sk.com/search/techBoardDetail.do?ID=166694) <br/> [❔Quiz](https://github.com/schooldevops/spring-batch-tutorials/tree/11.Quiz/06.01.FlatFileItemReaderSample) &nbsp; [❕Answer](https://github.com/schooldevops/spring-batch-tutorials/tree/11.Quiz/11.01.Quiz_Flatfile) | [@ch200203](https://github.com/ch200203) | [@ksko1](https://github.com/ksko1) | ✔ |
-| [week 04](week04) | 2024-10-29 20:00 | Online | [FlatFileItemReader와 FlatFileItemWriter](https://devocean.sk.com/experts/techBoardDetail.do?ID=166828) | [@won-js](https://github.com/won-js) |  | ✔ |
+| [week 04](week04) | 2024-10-29 20:00 | Online | [FlatFileItemReader와 FlatFileItemWriter](https://devocean.sk.com/experts/techBoardDetail.do?ID=166828) | [@won-js](https://github.com/won-js) | [@won-js](https://github.com/won-js)  | ✔ |
 | [week 05](week05) | 2024-11-05 20:00 | Online | [JdbcPagingItemReader와 JdbcBatchItemWriter](https://devocean.sk.com/search/techBoardDetail.do?ID=166867) |  |  |  |
 | week 06 | 2024-11-12 20:00 |  | MyBatisPagingItemReader / MyBatisItemWriter |  |  |  |
 | week 07 | 2024-11-19 20:00 |  | JdbcCursorItemReader / ByBatisCursorItemReader |  |  |  |
