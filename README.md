@@ -10,19 +10,19 @@
 <br/>
 
 ## 📅 커리큘럼
-| 주차 | 일시 | 장소 | 주제 | 발표자 | 정리자 | 완료 |
-|---|---|:---:|---|---|---|:---:|
-| week 00 | 2024-09-26 22:00 | Online | Orientation | [@ksko1](https://github.com/ksko1) | [@ksko1](https://github.com/ksko1) | ✔ |
-| [week 01](week01) | 2024-10-08 20:00 | Online | [SpringBatch 빠르게 시작하기](https://devocean.sk.com/search/techBoardDetail.do?ID=166164) | [@won-js](https://github.com/won-js) | [@ksko1](https://github.com/ksko1) | ✔ |
-| [week 02](week02) | 2024-10-15 20:00| Online | [SpringBatch 코드 설명 및 아키텍처 알아보기](https://devocean.sk.com/search/techBoardDetail.do?ID=166690) | [@claeo001](https://github.com/claeo001) | [@ksko1](https://github.com/ksko1) | ✔ |
-| [week 03](week03) | 2024-10-22 20:00 | Online | [SpringBatch ChunkModel과 TaskletModel](https://devocean.sk.com/search/techBoardDetail.do?ID=166694) <br/> [❔Quiz](https://github.com/schooldevops/spring-batch-tutorials/tree/11.Quiz/06.01.FlatFileItemReaderSample) &nbsp; [❕Answer](https://github.com/schooldevops/spring-batch-tutorials/tree/11.Quiz/11.01.Quiz_Flatfile) | [@ch200203](https://github.com/ch200203) | [@ksko1](https://github.com/ksko1) | ✔ |
-| [week 04](week04) | 2024-10-29 20:00 | Online | [FlatFileItemReader와 FlatFileItemWriter](https://devocean.sk.com/experts/techBoardDetail.do?ID=166828) | [@won-js](https://github.com/won-js) | [@won-js](https://github.com/won-js)  | ✔ |
-| [week 05](week05) | 2024-11-05 20:00 | Online | [JdbcPagingItemReader와 JdbcBatchItemWriter](https://devocean.sk.com/search/techBoardDetail.do?ID=166867) |  |  |  |
-| week 06 | 2024-11-12 20:00 |  | MyBatisPagingItemReader / MyBatisItemWriter |  |  |  |
-| week 07 | 2024-11-19 20:00 |  | JdbcCursorItemReader / ByBatisCursorItemReader |  |  |  |
-| week 08 | 2024-11-30 14:00 | ***Offline*** | JpaPagingItemReader / JpaItemWriter / Excel read & write |  |  |  |
-| week 09 | 2024-12-03 20:00 |  | CustomItemReader / CustomItemWriter |  |  |  |
-| week 10 | 2024-12-10 20:00 |  | Sample Project (ETL) |  |  |  |
+| 주차                | 일시 |      장소       | 주제                                                                                                       | 발표자                                      | 정리자 | 완료 |
+|-------------------|---|:-------------:|----------------------------------------------------------------------------------------------------------|------------------------------------------|---|:--:|
+| week 00           | 2024-09-26 22:00 |    Online     | Orientation                                                                                              | [@ksko1](https://github.com/ksko1)       | [@ksko1](https://github.com/ksko1) | ✔  |
+| [week 01](week01) | 2024-10-08 20:00 |    Online     | [SpringBatch 빠르게 시작하기](https://devocean.sk.com/search/techBoardDetail.do?ID=166164)                      | [@won-js](https://github.com/won-js)     | [@ksko1](https://github.com/ksko1) | ✔  |
+| [week 02](week02) | 2024-10-15 20:00|    Online     | [SpringBatch 코드 설명 및 아키텍처 알아보기](https://devocean.sk.com/search/techBoardDetail.do?ID=166690)             | [@claeo001](https://github.com/claeo001) | [@ksko1](https://github.com/ksko1) | ✔  |
+| [week 03](week03) | 2024-10-22 20:00 |    Online     | [SpringBatch ChunkModel과 TaskletModel](https://devocean.sk.com/search/techBoardDetail.do?ID=166694)      | [@ch200203](https://github.com/ch200203) | [@ksko1](https://github.com/ksko1) | ✔  |
+| [week 04](week04) | 2024-10-29 20:00 |    Online     | [FlatFileItemReader와 FlatFileItemWriter](https://devocean.sk.com/experts/techBoardDetail.do?ID=166828)   | [@won-js](https://github.com/won-js)     | [@ksko1](https://github.com/ksko1) | ✔  |
+| [week 05](week05) | 2024-11-05 20:00 |    Online     | [JdbcPagingItemReader / JdbcBatchItemWriter](https://devocean.sk.com/experts/techBoardDetail.do?ID=166828) | [@ksko1](https://github.com/ksko1)       |  | ✔  |
+| [week 06](week06) | 2024-11-12 20:00 |    Online     | [JpaPagingItemReader / JpaItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166902)         |                                          |  |    |
+| week 07           | 2024-11-19 20:00 |               | JdbcCursorItemReader / ByBatisCursorItemReader                                                           |                                          |  |    |
+| week 08           | 2024-11-30 14:00 | ***Offline*** | JpaPagingItemReader / JpaItemWriter / Excel read & write                                                 |                                          |  |    |
+| week 09           | 2024-12-03 20:00 |               | CustomItemReader / CustomItemWriter                                                                      |                                          |  |    |
+| week 10           | 2024-12-10 20:00 |               | Sample Project (ETL)                                                                                     |                                          |  |    |
 
 <br/>
 
