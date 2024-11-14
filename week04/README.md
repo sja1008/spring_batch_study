@@ -457,3 +457,31 @@ No,Name,Age
 총 나이: 645
 ```
 - Age가 1씩 추가된 것과 총 플레이 수, 나이가 찍혀 있는 것을 확인할 수 있다.
+
+
+--- 
+#### 발표자 업로드 참고 소스
+<https://github.com/won-js/spring-batch-study>
+
+#### 스터디원 정리 블로그
+<https://yeseul-dev.tistory.com/49>
+
+<https://j0free.tistory.com/10>
+
+<https://github.com/mardi2020/Spring-batch-study/blob/main/docs/4%EC%A3%BC%EC%B0%A8.md>
+
+<https://github.com/won-js/spring-batch-study/tree/main/docs/week4>
+
+<https://velog.io/@hanni/Spring-Batch-4%ED%8E%B8-FlatFileItemReader-FlatFileItemWriter%EB%A1%9C-%ED%8C%8C%EC%9D%BC%EC%9D%84-%EC%9D%BD%EA%B3%A0-%EC%8D%A8%EB%B3%B4%EC%9E%90>
+  
+<https://cafecortado.tistory.com/3>
+
+<https://github.com/connieya/spring-batch-study/blob/main/docs/week4/FlatFileItemReader.md>
+
+<https://github.com/chanwoo040531/batch-study/tree/master/assignment04>
+
+<https://youngkim90.github.io/posts/spring-batch-04/>
+
+<https://github.com/sajacaros/spring-batch-tutorial/blob/main/docs/04_flat_file_practice.md>
+
+<https://1nmybrain.tistory.com/63>
