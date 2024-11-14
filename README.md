@@ -27,10 +27,10 @@
 <br/>
 
 ## 👩‍💻 스터디 참석자
-| <img src="https://avatars.githubusercontent.com/u/18614482?v=4" width="120" height="120"/> | <img src="https://avatars.githubusercontent.com/u/66154381?v=4" width="120" height="120"/> | <img src="https://avatars.githubusercontent.com/u/45647541?v=4" width="120" height="120"/> | <img src="https://avatars.githubusercontent.com/u/68256369?v=4" width="120" height="120"/> | <img src="https://avatars.githubusercontent.com/u/88322812?v=4" width="120" height="120"/> | <img src="https://avatars.githubusercontent.com/u/58754885?v=4" width="120" height="120"/> |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Administrator** <br/> [@ksko1](https://github.com/ksko1) | **Maintainer** <br/> [@schooldevops](https://github.com/schooldevops) | **Organizer** <br/> [@sja1008](https://github.com/sja1008) | **Contributor** <br/> [@won-js](https://github.com/won-js) | **Contributor** <br/> [@claeo001](https://github.com/claeo001) | **Contributor** <br/> [@ch200203](https://github.com/ch200203) |
+| <img src="https://avatars.githubusercontent.com/u/18614482?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/66154381?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/45647541?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/68256369?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/88322812?v=4" width="150" height="150"/> | 
+|:---:|:---:|:---:|:---:|:---:|
+| **Administrator** <br/> [@ksko1](https://github.com/ksko1) | **Maintainer** <br/> [@schooldevops](https://github.com/schooldevops) | **Organizer** <br/> [@sja1008](https://github.com/sja1008) | **Contributor** <br/> [@won-js](https://github.com/won-js) | **Contributor** <br/> [@claeo001](https://github.com/claeo001) |
 
-| <img src="https://avatars.githubusercontent.com/u/114650607?v=4" width="120" height="120"/> |  <img src="https://avatars.githubusercontent.com/u/50395809?v=4" width="120" height="120"/> |
-|:---:|:---:|
-| **Contributor** <br/> [@chanwoo040531](https://github.com/chanwoo040531) |  **Contributor** <br/> [@HongYeseul](https://github.com/HongYeseul) |
+| <img src="https://avatars.githubusercontent.com/u/58754885?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/114650607?v=4" width="150" height="150"/> |  <img src="https://avatars.githubusercontent.com/u/50395809?v=4" width="150" height="120"/> |
+|:---:|:---:|:---:|
+| **Contributor** <br/> [@ch200203](https://github.com/ch200203) | **Contributor** <br/> [@chanwoo040531](https://github.com/chanwoo040531) |  **Contributor** <br/> [@HongYeseul](https://github.com/HongYeseul) |
