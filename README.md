@@ -12,17 +12,17 @@
 ## 📅 커리큘럼
 | 주차                | 일시 |      장소       | 주제                                                                                                       | 발표자                                           | 정리자                                | 완료 |
 |-------------------|---|:-------------:|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|------------------------------------|:--:|
-| week 00           | 2024-09-26 22:00 |    Online     | Orientation                                                                                              | [@ksko1](https://github.com/ksko1)            | [@ksko1](https://github.com/ksko1) | ✔  |
-| [week 01](week01) | 2024-10-08 20:00 |    Online     | [SpringBatch 빠르게 시작하기](https://devocean.sk.com/blog/techBoardDetail.do?ID=166164)                        | [@won-js](https://github.com/won-js)          | [@ksko1](https://github.com/ksko1) | ✔  |
-| [week 02](week02) | 2024-10-15 20:00|    Online     | [SpringBatch 코드 설명 및 아키텍처 알아보기](https://devocean.sk.com/blog/techBoardDetail.do?ID=166690)               | [@claeo001](https://github.com/claeo001)      | [@ksko1](https://github.com/ksko1) | ✔  |
-| [week 03](week03) | 2024-10-22 20:00 |    Online     | [SpringBatch ChunkModel과 TaskletModel](https://devocean.sk.com/blog/techBoardDetail.do?ID=166694)        | [@ch200203](https://github.com/ch200203)      | [@ksko1](https://github.com/ksko1) | ✔  |
-| [week 04](week04) | 2024-10-29 20:00 |    Online     | [FlatFileItemReader와 FlatFileItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166828)      | [@won-js](https://github.com/won-js)          | [@ksko1](https://github.com/ksko1) | ✔  |
-| [week 05](week05) | 2024-11-05 20:00 |    Online     | [JdbcPagingItemReader / JdbcBatchItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166867)  | [@ksko1](https://github.com/ksko1)            | [@ksko1](https://github.com/ksko1) | ✔  |
-| [week 06](week06) | 2024-11-12 20:00 |    Online     | [JpaPagingItemReader / JpaItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166902)         | [@chanwoo040531](https://github.com/chanwoo040531) | [@HongYeseul](https://github.com/HongYeseul)| ✔  |
-| [week 07](week07) | 2024-11-19 20:00 |    Online     | [MyBatisPagingItemReader / MyBatisItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166932) |                                               |                                    |    |
-| week 08           | 2024-11-30 14:00 | ***Offline*** | JpaPagingItemReader / JpaItemWriter / Excel read & write                                                 |                                               |                                    |    |
-| week 09           | 2024-12-03 20:00 |               | CustomItemReader / CustomItemWriter                                                                      |                                               |                                    |    |
-| week 10           | 2024-12-10 20:00 |               | Sample Project (ETL)                                                                                     |                                               |                                    |    |
+| week 00           | 2024-09-26 22:00 |    Online     | Orientation | [@ksko1](https://github.com/ksko1) | [@ksko1](https://github.com/ksko1) | ✔  |
+| [week 01](week01) | 2024-10-08 20:00 |    Online     | [SpringBatch 빠르게 시작하기](https://devocean.sk.com/blog/techBoardDetail.do?ID=166164) | [@won-js](https://github.com/won-js) | [@ksko1](https://github.com/ksko1) | ✔ |
+| [week 02](week02) | 2024-10-15 20:00 |    Online     | [SpringBatch 코드 및 아키텍처](https://devocean.sk.com/blog/techBoardDetail.do?ID=166690) | [@claeo001](https://github.com/claeo001) | [@ksko1](https://github.com/ksko1) | ✔ |
+| [week 03](week03) | 2024-10-22 20:00 |    Online     | [SpringBatch ChunkModel와 TaskletModel](https://devocean.sk.com/blog/techBoardDetail.do?ID=166694) | [@ch200203](https://github.com/ch200203) | [@ksko1](https://github.com/ksko1) | ✔ |
+| [week 04](week04) | 2024-10-29 20:00 |    Online     | [FlatFileItemReader와 FlatFileItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166828) | [@won-js](https://github.com/won-js) | [@ksko1](https://github.com/ksko1) | ✔ |
+| [week 05](week05) | 2024-11-05 20:00 |    Online     | [JdbcPagingItemReader와 JdbcBatchItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166867) | [@ksko1](https://github.com/ksko1) | [@ksko1](https://github.com/ksko1) | ✔ |
+| [week 06](week06) | 2024-11-12 20:00 |    Online     | [JpaPagingItemReader와 JpaItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166902) | [@chanwoo040531](https://github.com/chanwoo040531) | [@HongYeseul](https://github.com/HongYeseul)| ✔ |
+| [week 07](week07) | 2024-11-19 20:00 |    Online     | [MyBatisPagingItemReader와 MyBatisItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166932) | [@youngkim90](https://github.com/youngkim90) |  | ✔ |
+| [week 08](week08) | 2024-11-30 14:00 | ***Offline*** | [CompositeItemProcessor](https://devocean.sk.com/experts/techBoardDetail.do?ID=166950) |                                               |                                    |    |
+| week 09           | 2024-12-03 20:00 |  |  |  |  |  |
+| week 10           | 2024-12-10 20:00 |  |  |  |  |  |
 
 <br/>
 
@@ -31,6 +31,6 @@
 |:---:|:---:|:---:|:---:|:---:|
 | **Administrator** <br/> [@ksko1](https://github.com/ksko1) | **Maintainer** <br/> [@schooldevops](https://github.com/schooldevops) | **Organizer** <br/> [@sja1008](https://github.com/sja1008) | **Contributor** <br/> [@won-js](https://github.com/won-js) | **Contributor** <br/> [@claeo001](https://github.com/claeo001) |
 
-| <img src="https://avatars.githubusercontent.com/u/58754885?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/114650607?v=4" width="130" height="130"/> |  <img src="https://avatars.githubusercontent.com/u/50395809?v=4" width="130" height="130"/> |
-|:---:|:---:|:---:|
-| **Contributor** <br/> [@ch200203](https://github.com/ch200203) | **Contributor** <br/> [@chanwoo040531](https://github.com/chanwoo040531) |  **Contributor** <br/> [@HongYeseul](https://github.com/HongYeseul) |
+| <img src="https://avatars.githubusercontent.com/u/58754885?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/114650607?v=4" width="130" height="130"/> |  <img src="https://avatars.githubusercontent.com/u/50395809?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/47030781?v=4" width="130" height="130"/> |
+|:---:|:---:|:---:|:---:|
+| **Contributor** <br/> [@ch200203](https://github.com/ch200203) | **Contributor** <br/> [@chanwoo040531](https://github.com/chanwoo040531) | **Contributor** <br/> [@HongYeseul](https://github.com/HongYeseul) | **Contributor** <br/> [@youngkim90](https://github.com/youngkim90) |
