@@ -22,14 +22,14 @@
 | [week 07](week07) | 2024-11-19 20:00 |    Online     | [MyBatisPagingItemReader와 MyBatisItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166932) | [@youngkim90](https://github.com/youngkim90) | [@youngkim90](https://github.com/youngkim90) | ✔ |
 | [week 08](week08) | 2024-11-30 14:00 | ***Offline*** | [CompositeItemProcessor](https://devocean.sk.com/experts/techBoardDetail.do?ID=166950)                  |  |  |  |
 | [week 09](week09) | 2024-12-03 20:00 |    Online     | [Custom ItemReader/ItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=167030)               |  |  |  |
-| week 10           | 2024-12-10 20:00 |               |                                                                                                         |  |  |  |
+| [week 10](week10) | 2024-12-10 20:00 |    Online     | [스프링배치 플로우 컨트롤하기](https://devocean.sk.com/experts/techBoardDetail.do?ID=167054) |  |  |  |
 
 <br/>
 
 ## 👩‍💻 스터디 참석자
-| <img src="https://avatars.githubusercontent.com/u/66154381?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/45647541?v=4" width="130" height="130"/> |                <img src="https://avatars.githubusercontent.com/u/58754885?v=4" width="130" height="130"/>                 | <img src="https://avatars.githubusercontent.com/u/18614482?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/88322812?v=4" width="130" height="130"/> | 
+| <img src="https://avatars.githubusercontent.com/u/18614482?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/66154381?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/45647541?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/58754885?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/88322812?v=4" width="130" height="130"/> | 
 |:------------------------------------------------------------------------------------------:|:---:|:-------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|:---:|
-| **Maintainer** <br/> [@schooldevops](https://github.com/schooldevops) | **Organizer** <br/> [@sja1008](https://github.com/sja1008) | **Organizer** <br/> [@ch200203](https://github.com/ch200203)  | **Supporter** <br/> [@ksko1](https://github.com/ksko1)                   | **Contributor** <br/> [@claeo001](https://github.com/claeo001) |
+| **Administrator** <br/> [@ksko1](https://github.com/ksko1) | **Maintainer** <br/> [@schooldevops](https://github.com/schooldevops) | **Organizer** <br/> [@sja1008](https://github.com/sja1008) | **Organizer** <br/> [@ch200203](https://github.com/ch200203)  | **Contributor** <br/> [@claeo001](https://github.com/claeo001) |
 
 | <img src="https://avatars.githubusercontent.com/u/68256369?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/114650607?v=4" width="130" height="130"/> |  <img src="https://avatars.githubusercontent.com/u/50395809?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/47030781?v=4" width="130" height="130"/> |
 |:---:|:---:|:---:|:---:|
