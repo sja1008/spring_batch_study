@@ -39,6 +39,6 @@
 |:---:|:---:|:---:|:---:|:---:|
 | **Contributor** <br/> [@amazon7737](https://github.com/amazon7737) | **Contributor** <br/> [@sajacaros](https://github.com/sajacaros) | **Contributor** <br/> [@gunkim](https://github.com/gunkim) | **Contributor** <br/> [@connieya](https://github.com/connieya) | **Contributor** <br/> [@hysong4u](https://github.com/hysong4u) |
 
-| <img src="https://avatars.githubusercontent.com/u/17266310?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/29122916?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/49530253?v=4" width="130" height="130"/> |
-|:---:|:---:|:---:|
-| **Contributor** <br/> [@moonki-cho](https://github.com/moonki-cho) | **Contributor** <br/> [@0hun](https://github.com/0hun) | **Contributor** <br/> [@tmddus2](https://github.com/tmddus2) |
+| <img src="https://avatars.githubusercontent.com/u/17266310?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/29122916?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/49530253?v=4" width="130" height="130"/> | <img src="https://avatars.githubusercontent.com/u/33251241?v=4" width="130" height="130"/> |
+|:---:|:---:|:---:|:---:|
+| **Contributor** <br/> [@moonki-cho](https://github.com/moonki-cho) | **Contributor** <br/> [@0hun](https://github.com/0hun) | **Contributor** <br/> [@tmddus2](https://github.com/tmddus2) | **Contributor** <br/> [@mincheolkk](https://github.com/mincheolkk) |
