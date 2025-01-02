@@ -22,8 +22,8 @@
 | [week 07](week07) | 2024-11-19 20:00 |    Online     | [MyBatisPagingItemReader와 MyBatisItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=166932) | [@youngkim90](https://github.com/youngkim90)       | [@youngkim90](https://github.com/youngkim90) | ✔ |
 | [week 08](week08) | 2024-11-30 14:00 | ***Offline*** | [CompositeItemProcessor](https://devocean.sk.com/experts/techBoardDetail.do?ID=166950)              | [@mardi2020](https://github.com/mardi2020)         | [@mardi2020](https://github.com/mardi2020) | ✔ |
 | [week 09](week09) | 2024-12-10 20:00 |    Online     | [Custom ItemReader/ItemWriter](https://devocean.sk.com/blog/techBoardDetail.do?ID=167030)           | [@amazon7737](https://github.com/amazon7737)       | [@amazon7737](https://github.com/amazon7737) | ✔ |
-| [week 10](week10) | 2024-12-10 20:00 |    Online     | [스프링배치 플로우 컨트롤하기](https://devocean.sk.com/experts/techBoardDetail.do?ID=167054)                     | [@sajacaros](https://github.com/sajacaros)         | [@sajacaros](https://github.com/sajacaros) | ✔ |
-| additional info.  | anytime          |  Self-Study   | [Job, Step 시작/종료시 특정작업 수행하기](https://devocean.sk.com/experts/techBoardDetail.do?ID=167161)          |                                                    |  |  |
+| [week 10](week10) | 2024-12-10 20:00 |    Online     | [스프링배치 플로우 컨트롤하기](https://devocean.sk.com/blog/techBoardDetail.do?ID=167054)                     | [@sajacaros](https://github.com/sajacaros)         | [@sajacaros](https://github.com/sajacaros) | ✔ |
+| additional info.  | anytime          |  Self-Study   | [Job, Step 시작/종료시 특정작업 수행하기](https://devocean.sk.com/blog/techBoardDetail.do?ID=167161)          |                                                    |  |  |
 <br/>
 
 ## 👩‍💻 스터디 참석자
